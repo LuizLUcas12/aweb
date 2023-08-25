@@ -1,0 +1,152 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 23px;
+}
+
+header nav h2 i {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+header nav div i {
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+hr {
+    background-color: whitesmoke;
+}
+
+#numeros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#numeros div {
+    text-align: center;
+}
+
+#numeros div * {
+    margin: 0;
+    font-size: 25px;
+}
+
+#numeros img {
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+#descricao {
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 20px;
+}
+
+#descricao * {
+    margin: 0;
+    font-size: 22px;
+}
+
+#editar-perfil {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botao {
+    width: 95%;
+    border-radius: 5px;
+    background-color: gainsboro;
+    padding: 6px 0;
+    font-weight: bolder;
+    font-size: 16px;
+    border: gainsboro solid 2px;
+    cursor: pointer;
+}
+
+#stories {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+#stories img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+
+#pre-fotos {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#pre-fotos i {
+    cursor: pointer;
+}
+
+#grid-fotos {
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    justify-items: center;
+    justify-content: center;
+    grid-gap: 0em;
+}
+
+#grid-fotos img {
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 15px 0;
+}
+
+footer i {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+footer img {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+body{
+    height: 480px;
+    width: 768px;
+    margin-left: 500px;
+}
