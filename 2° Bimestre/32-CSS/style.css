@@ -1,0 +1,139 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+        
+}
+
+.header img{
+    width: 130px;
+    height: 50px;   
+}
+  
+.header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-decoration: underline;
+    margin-left: 850px;
+    margin-top: -40px;
+    gap: 70px;
+    list-style: none;
+}
+
+.foto1 img{
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+    
+.texto1{
+    position: absolute;
+    background-color:black;
+    width: 1200px;
+    height: 90px;
+    color:white;  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    margin-top: -450px;
+    margin-left: 70px;
+}
+  
+.container {
+    text-align: center;
+    margin: 20px;
+    color: white;
+    margin-top: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+    
+h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+    
+h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+    white-space: 20px;
+} 
+ 
+.image-row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.image3{
+    margin: 0 10px;
+    text-align: center;
+}
+
+.image{
+    width: 300px;
+    height: 200px;
+}
+    
+p{
+      margin-top: 10px;
+      font-family: Arial, Helvetica, sans-serif
+}
+
+.foto2 img{ 
+      position: relative;
+      width: 1200px;
+      height: 500px;
+      margin-left: 70px;   
+}
+  
+.foto2 h1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -500px;
+    margin-left: 550px;
+}
+  
+.texto2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -450px;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chá{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1px;
+    padding-top: 20px;
+}
+    
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+  
+h3{
+    margin-left: 20px;
+    color: white;
+}
