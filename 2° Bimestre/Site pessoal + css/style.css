@@ -10,13 +10,16 @@ p{
 
 }
 
+
 header{
-    padding: 20px 4%;
-    height: 70px;
+    padding: 30px 4%;
+    height: 0px;
     width: 1300px;
     margin: 10 auto;
     background-color: green;
 }
+
+
 
 ul{
     display: flex;
@@ -43,11 +46,6 @@ header img{
 .center{
     text-align: center;
     
-}
-
-.interface{
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 h1{
@@ -77,8 +75,7 @@ footer p{
 }
 
 .container{
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 0px 50px;
 }
 
 nav a:hover{
