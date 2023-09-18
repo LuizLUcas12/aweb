@@ -111,12 +111,12 @@ hr {
 
 #grid-fotos {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 280px);
+    grid-template-columns: repeat(3, 270px);
     justify-items: center;
     justify-content: center;
-    grid-gap: 0em;
+    grid-gap: 0.5em;
 }
 
 #grid-fotos img {
